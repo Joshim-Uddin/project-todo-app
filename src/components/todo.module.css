@@ -1,0 +1,22 @@
+article{
+    background-color: #2c2c2c;
+    color: white;
+    padding: 0.5rem;
+    margin: 10px 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.title{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    border: none;
+    color: red;
+    background: transparent;
+    cursor: pointer;
+
+}

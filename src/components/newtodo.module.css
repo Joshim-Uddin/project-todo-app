@@ -1,0 +1,39 @@
+.formtodo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.6rem;
+    margin: 0 auto;
+    width: 50%;
+    background-color: #2c2c2c;
+    padding: 0.7rem;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.divinput{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.label{
+    flex-basis: 20%;
+}
+.field{
+    flex-basis: 80%;
+    padding: 0.5rem;
+    border-radius: 25px;
+    color: #000;
+}
+.field:focus{
+    outline: none;
+}
+.btn{
+    font-size: 1.1rem;
+    background-color: orangered;
+    border: none;
+    padding: 7px 10px;
+    cursor: pointer;
+    color: azure;
+}
